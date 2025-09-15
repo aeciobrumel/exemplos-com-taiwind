@@ -14,16 +14,16 @@ interface CodeBlockProps {
     code: string;
     language: string;
     filename?: string;
-    compact?: boolean;            // ⬅️ novo
-    maxHeightClass?: string;      // ⬅️ opcional (ex: "max-h-56")
+    compact?: boolean;
+    maxHeightClass?: string;
 }
 
 export const CodeBlock = ({
     code,
     language,
     filename = "exemplo.js",
-    compact = true,               // ⬅️ por padrão já fica pequeno
-    maxHeightClass = "max-h-60",  // ⬅️ 15rem de altura máx
+    compact = true,
+    maxHeightClass = "max-h-60",
 }: CodeBlockProps) => {
     const [copied, setCopied] = useState(false);
 
