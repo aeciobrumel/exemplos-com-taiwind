@@ -10,7 +10,8 @@ export const Page = () => {
             </div>
             <div className="container mx-auto">
 
-                <div>
+                <div className="bg-slate-950  my-10 rounded-2xl ">
+
                     <div className="text-white text-3xl p-3 font-bold"> Card responsivo</div>
                     <div className=" rounded-xl overflow-hidden p-6 bg-slate-800 md:flex md:p-0">
                         <div className=" w-24 h-24 md:w-48 md:h-auto md:rounded-none mx-auto  bg-cover bg-center-top bg-[url(../src/assets/agostinho.jpg)] rounded-full  " ></div>
@@ -37,8 +38,7 @@ export const Page = () => {
                     />
                 </div>
                 <div className="bg-slate-700  my-10 rounded-2xl ">
-                    <div className="text-white text-3xl p-3 font-bold border-b-[4px] border-slate-950 "> Loading</div>
-
+                    <div className="text-white text-3xl p-3 font-bold  "> Loading</div>
                     <div className="flex flex-row items-center bg-slate-800 ">
 
 
