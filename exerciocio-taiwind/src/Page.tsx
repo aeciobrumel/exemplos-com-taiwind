@@ -6,7 +6,7 @@ export const Page = () => {
     return (
         <div className="w-full bg-[#0b1222]">
             <div className="text-white text-4xl text-center p-10 font-bold">
-                Aqui vão exemplos de códigos práticos em react usando taiwind:
+                Aqui vão exemplos de códigos práticos em react usando tailwind:
             </div>
             <div className="container mx-auto">
 
