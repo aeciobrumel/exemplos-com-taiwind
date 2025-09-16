@@ -39,16 +39,13 @@ export const Page = () => {
                 </div>
                 <div className="bg-slate-700  my-10 rounded-2xl ">
                     <div className="text-white text-3xl p-3 font-bold  "> Loading</div>
-                    <div className="flex flex-row items-center bg-slate-800 ">
-
-
-
-                        <div className="flex flex-col w-6/12">
+                    <div className="flex flex-col items-center bg-slate-800 ">
+                        <div className="flex flex-col w-9/12">
                             <div className="flex justify-center p-10">
                                 <div className="  w-12 h-12 border-8 border-cyan-100/10 border-b-cyan-500  animate-spin rounded-full "></div>
                             </div>
                         </div>
-                        <div className="w-5/12">
+                        <div className="w-11/12">
                             <CodeBlock
                                 language="jsx"
                                 filename="spinner.tsx"
@@ -71,7 +68,7 @@ export const Page = () => {
 
                         </div>
 
-                        <div className="p-5">
+                        <div className="p-4">
                             <CodeBlock
                                 language="jsx"
                                 filename="PhotoGrid.tsx"
@@ -161,9 +158,9 @@ export const Page = () => {
                                 </tr>
                             </tbody>
                         </table>
-                        <div className=" flex justify-center p-10">
+                        <div className=" flex justify-center p-4">
 
-                            <div className="w-10/12">
+                            <div className="w-12/12">
                                 <CodeBlock
                                     language="jsx"
                                     filename="table.tsx"
