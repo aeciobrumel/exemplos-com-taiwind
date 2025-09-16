@@ -23,7 +23,7 @@ export const Page = () => {
                     </div>
                     <CodeBlock
                         language="jsx"
-                        filename="Pagse.tsx"
+                        filename="card.tsx"
                         code={`<div className="container mx-auto">
   <div className="rounded-xl overflow-hidden p-6 bg-slate-800 md:flex md:p-0">
     <div className="w-24 h-24 md:w-48 md:h-auto md:rounded-none mx-auto bg-cover bg-center-top bg-[url(../src/assets/agostinho.jpg)] rounded-full"></div>
@@ -74,7 +74,7 @@ export const Page = () => {
                         <div className="p-5">
                             <CodeBlock
                                 language="jsx"
-                                filename="spinner.tsx"
+                                filename="PhotoGrid.tsx"
                                 code={`<div className="grid grid-cols-1 gap-2 md:grid-cols-3">
     <div className=" w-full bg-cover bg-center md:col-span-2 md:row-span-2 md:h-full h-60 bg-[url(../src/assets/7.jpg)]"></div>
     <div className=" w-full bg-cover bg-center h-60 bg-[url(../src/assets/1.jpg)]"></div>
@@ -166,7 +166,7 @@ export const Page = () => {
                             <div className="w-10/12">
                                 <CodeBlock
                                     language="jsx"
-                                    filename="spinner.tsx"
+                                    filename="table.tsx"
                                     code={`<table className="bg-slate-700 w-full text-white">
     <thead>
         <tr className="border-b text-left text-sm border-white ">
