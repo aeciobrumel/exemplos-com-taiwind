@@ -87,8 +87,8 @@ export const Page = () => {
                     </div>
                 </div>
 
-                <div className="p-3  mt-10 rounded-md bg-slate-800 ">
-                    <div className="text-2xl font-bold text-white py-10">
+                <div className=" p-3 rounded-md bg-slate-800 ">
+                    <div className="text-2xl font-bold text-white py-5">
                         Tabela responsiva
                     </div>
                     <div >
